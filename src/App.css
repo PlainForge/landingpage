@@ -1,0 +1,30 @@
+main {
+  padding: 2rem;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.moving-container {
+  z-index: -1;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(
+    rgba(100, 100, 255, 0.1) 25%,
+    rgba(100, 100, 255, 0.05) 50%,
+    rgba(100, 100, 255, 0) 100%
+  );
+  cursor: default;
+}
+
+.logo {
+  width: 100px;
+  color: black;
+  background-size: cover;
+  background-color: rgb(24,24,24,0.9);
+  border-radius: 20px;
+}
